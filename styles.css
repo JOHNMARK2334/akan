@@ -181,6 +181,8 @@ button[type="submit"]:hover {
 
     .container {
         padding: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
     .form-group {
