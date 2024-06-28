@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Akan Name Generator</h1>
+    <section class="main">
+        <div class="grid-container">
+            <div class="image">
+                <img src="akan.jpg" alt="akan" class="img">
+            </div>
+            <div class="text">
+                <p>
+                    Ghana's Akan people hold deep meaning in their naming traditions. Each child receives a "day name" based on their birthdate, reflecting personality traits and beliefs tied to that day. 
+                    "Kofi," for instance, is given to Friday babies and signifies perseverance.
+                    Family names, unlike Western surnames, connect children to prominent ancestors, fostering a strong sense of lineage. 
+                    Additional names might be bestowed based on birth order or circumstances, highlighting hope or resilience. 
+                    Nicknames, often playful, are also common.
+                    Akan names are more than just words; they're a link to heritage, instilling a sense of belonging and responsibility within the vibrant Akan community.
+                </p>
+                <button id="scrollToForm">Explore names</button>
+            </div>
+        </div>
+    </section>
+    <section class="content">
+        <div class="container">
+            <h2>Name Generator</h2>
+            <form id="akanForm">
+                <div class="form-group">
+                    <label for="birthdate">Birthdate:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <button type="submit">Generate Akan Name</button>
+            </form>
+            <div id="result" class="result"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
